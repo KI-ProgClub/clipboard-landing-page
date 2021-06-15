@@ -1,13 +1,23 @@
+/*Font import */
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+/* Code */
 html {
     width: 100%;
     height: 100vh;
 }
 body {
     display: flex;
-    justify-content: center;
     flex-direction: column;
     align-items: center;
     margin: 0 auto;
+}
+h1 {
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 600;
+}
+p {
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 400;
 }
 #ios {
     background-color: #26BBA5;
