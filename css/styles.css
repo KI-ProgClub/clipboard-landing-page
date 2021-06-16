@@ -23,6 +23,9 @@ p {
     background-color: #6074FF;
     box-shadow: 0px 1px 5px 0px #6074FF;
 }
+#buttons {
+    flex-direction: row;
+}
 button {
     border-radius: 2em;
     border: none;
