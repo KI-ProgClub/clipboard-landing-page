@@ -18,13 +18,17 @@ p {
 #ios {
     background-color: #26BBA5;
     box-shadow: 0px 1px 5px 0px #26BBA5;
+    margin-left: 23em;
 }
 #mac {
     background-color: #6074FF;
     box-shadow: 0px 1px 5px 0px #6074FF;
+    margin-right: 23em;
 }
 #buttons {
     flex-direction: row;
+    align-self:stretch;
+    justify-content: space-evenly;
 }
 button {
     border-radius: 2em;
