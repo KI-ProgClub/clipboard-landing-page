@@ -10,14 +10,22 @@ div {
     display: flex;
     align-items: center;
     flex-direction: column;
+    text-align: center;
 }
 h1 {
     font-weight: 600;
     color: hsl(210, 10%, 33%);
+    line-height: 0.8em;
 }
 p {
     font-weight: 400;
     color: hsl(201, 11%, 66%);
+}
+#features {
+    width: 300px;
+}
+.header {
+    margin-bottom: 5em;
 }
 #ios {
     transition: .3s;
