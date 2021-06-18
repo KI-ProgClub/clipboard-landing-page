@@ -3,7 +3,7 @@
 /* Code */
 
 body {
-    margin: 0px;
+    margin: 0;
 }
 div {
     font-family: 'Bai Jamjuree', sans-serif;
@@ -20,14 +20,26 @@ p {
     color: hsl(201, 11%, 66%);
 }
 #ios {
+    transition: .3s;
     background-color: #26BBA5;
-    box-shadow: 0px 1px 5px 0px #26BBA5;
+    box-shadow: 0px 1px 7px 0px #26BBA5;
     margin-right: 10px;
+    border-bottom: 3px solid #1d8d7c;
 }
 #mac {
+    transition: .3s;
     background-color: #6074FF;
-    box-shadow: 0px 1px 5px 0px #6074FF;
+    box-shadow: 0px 1px 7px 0px #6074FF;
     margin-left: 10px;
+    border-bottom: 3px solid #4656be;
+}
+#ios:hover {
+    transition: .3s;
+    background-color: #61CDBD;
+}
+#mac:hover {
+    transition: .3s;
+    background-color: #8896FF;
 }
 #buttons {
     flex-direction: row;
@@ -40,7 +52,10 @@ button {
     height: 2.8em;
     color: white;
     font-family: 'Bai Jamjuree', sans-serif;
-    
+    cursor: pointer;
+}
+button:active {
+    transform: translateY(2px);
 }
 .img_header {
     width: 100%;
