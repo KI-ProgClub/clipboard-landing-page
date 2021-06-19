@@ -11,7 +11,6 @@ div {
     display: flex;
     align-items: center;
     flex-direction: column;
-    text-align: center;
 }
 h1 {
     font-weight: 600;
@@ -23,15 +22,11 @@ p {
     color: hsl(201, 11%, 66%);
 }
 #headerpar {
-    margin-top: 0px;
     margin-bottom: 40px;
 }
 #Hheader {
     font-size: 35px;
     margin-top: 0px;
-}
-#features {
-    width: 300px;
 }
 .header {
     margin-bottom: 5em;
@@ -86,6 +81,20 @@ button:active {
     width: 550px;
 }
 .containers {
-    width: 620px;
+    width: 40em;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
+.computer {
+    width: 45em;
+}
+.features {
+    margin-top: 3em;
+    flex-direction: row;
+    align-content: flex-start;
+}
+#featuresText {
+    width: 20em;
 
+}
