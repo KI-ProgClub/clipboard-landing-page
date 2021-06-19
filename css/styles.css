@@ -4,6 +4,7 @@
 
 body {
     margin: 0;
+    line-height: 27px;
 }
 div {
     font-family: 'Bai Jamjuree', sans-serif;
@@ -84,3 +85,7 @@ button:active {
 .container {
     width: 550px;
 }
+.containers {
+    width: 620px;
+}
+
