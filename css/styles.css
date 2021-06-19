@@ -21,6 +21,14 @@ p {
     font-weight: 400;
     color: hsl(201, 11%, 66%);
 }
+#headerpar {
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+#Hheader {
+    font-size: 35px;
+    margin-top: 0px;
+}
 #features {
     width: 300px;
 }
@@ -72,4 +80,7 @@ button:active {
 .svg_header {
     position: absolute;
     margin-top: 115px;
+}
+.container {
+    width: 550px;
 }
