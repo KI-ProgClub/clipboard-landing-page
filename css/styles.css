@@ -22,7 +22,8 @@ p {
     color: hsl(201, 11%, 66%);
 }
 #headerpar {
-    margin-bottom: 40px;
+    margin-bottom: 3em;
+    width: 38em;
 }
 #Hheader {
     font-size: 35px;
@@ -81,20 +82,25 @@ button:active {
     width: 550px;
 }
 .containers {
-    width: 40em;
+    flex-direction: column;
     text-align: center;
     justify-content: center;
     align-items: center;
 }
 .computer {
-    width: 45em;
+    position: relative;
+    width: 40%;
+    margin-right: 5em;
+    right: 5em;
 }
 .features {
-    margin-top: 3em;
+    overflow: hidden;
     flex-direction: row;
-    align-content: flex-start;
+    overflow: hidden;
+    text-align: left;
 }
 #featuresText {
-    width: 20em;
-
+    margin-bottom: 7em;
+    align-items:flex-start;
+    width: 30em;
 }
