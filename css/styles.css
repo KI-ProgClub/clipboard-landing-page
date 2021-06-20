@@ -103,9 +103,21 @@ button:active {
 }
 #featuresText {
     margin-bottom: 7em;
-    align-items:flex-start;
+    align-items: flex-start;
     width: 30em;
 }
 .Clipboard {
     margin-top: 5em;
+}
+.devices {
+    position: relative;
+    width: 40%;
+    margin: 3em 0em 2em 0em;
+}
+#allFeutures {
+    flex-direction: row;
+    justify-content: center;
+}
+#allFeutures img {
+    margin: 2em 0em 1em 0em;
 }
