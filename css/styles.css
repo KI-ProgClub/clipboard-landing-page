@@ -124,3 +124,12 @@ button:active {
     height: 50px;
     align-content: center;
 }
+#logo {
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 8em;
+}
+#logo img {
+    margin-right: 5em;
+    width: 10em;
+}
