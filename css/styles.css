@@ -1,7 +1,9 @@
 /*Font import */
 @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
 /* Code */
-
+html {
+    scroll-behavior: smooth;
+}
 body {
     margin: 0;
     line-height: 27px;
@@ -103,4 +105,7 @@ button:active {
     margin-bottom: 7em;
     align-items:flex-start;
     width: 30em;
+}
+.Clipboard {
+    margin-top: 5em;
 }
