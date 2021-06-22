@@ -37,5 +37,35 @@ button {
     height: 2.8em;
     color: white;
     font-family: 'Bai Jamjuree', sans-serif;
+<<<<<<< Updated upstream
     
 }
+=======
+    cursor: pointer;
+}
+button:active {
+    transform: translateY(2px);
+}
+.img_header {
+    width: 100%;
+    height: 300px;
+}
+.svg_header {
+    position: absolute;
+    margin-top: 115px;
+}
+.container {
+    width: 550px;
+}
+.containers {
+    width: 620px;
+}
+
+.featuresH {
+    font-size: 20px;
+}
+.img_computer {
+    width: 50%;
+}
+
+>>>>>>> Stashed changes
