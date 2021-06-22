@@ -24,8 +24,10 @@ p {
     color: hsl(201, 11%, 66%);
 }
 #headerpar {
+    margin-top: 0em;
     margin-bottom: 3em;
     width: 38em;
+    text-align: center;
 }
 #Hheader {
     font-size: 35px;
