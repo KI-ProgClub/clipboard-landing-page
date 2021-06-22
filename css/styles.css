@@ -91,7 +91,7 @@ button:active {
 }
 .computer {
     position: relative;
-    width: 40%;
+    width: 50em;
     margin-right: 5em;
     right: 5em;
 }
@@ -111,7 +111,7 @@ button:active {
 }
 .devices {
     position: relative;
-    width: 40%;
+    width: 45em;
     margin: 3em 0em 2em 0em;
 }
 #allFeutures {
