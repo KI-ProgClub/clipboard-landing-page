@@ -24,8 +24,10 @@ p {
     color: hsl(201, 11%, 66%);
 }
 #headerpar {
+    margin-top: 0em;
     margin-bottom: 3em;
     width: 38em;
+    text-align: center;
 }
 #Hheader {
     font-size: 35px;
@@ -133,3 +135,20 @@ button:active {
     margin-right: 5em;
     width: 10em;
 }
+.footer {
+    background: rgb(241, 241, 241);
+    padding: 10px; clear : both;
+}
+.linkingfooter {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: rgb(75, 75, 75);
+    margin-left: 5em;
+}
+.nav2 {
+    margin-right: 12.7em;
+}
+.nav1 {
+    margin-left: 6.5em;
+}
+
