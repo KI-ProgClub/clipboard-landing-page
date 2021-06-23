@@ -11,7 +11,7 @@ body {
 div {
     font-family: 'Bai Jamjuree', sans-serif;
     display: flex;
-    align-items: center;
+    /* align-items: center; --- должно быть но зато футер ок*/
     flex-direction: column;
 }
 h1 {
@@ -138,21 +138,23 @@ button:active {
 footer {
     background: rgb(241, 241, 241);
     padding: 10px; clear : both;
+    text-align: left;
 }
 #linkingfooter {
     transition: color .3s;
     text-decoration: none;
     font-size: 1.2em;
     color: rgb(75, 75, 75);
-    margin-left: 5em;
 }
 #linkingfooter:hover {
     transition: color .3s;
     color: #6BD1BA;
 }
-.nav2 {
-    margin-right: 6.3em;
+.linkall {
+    flex-direction: row;
 }
-.nav1 {
-    margin-left: 6.5em;
+.nav {
+    height: 52px;
+    flex-direction: column;
+    margin-right: 5em;
 }
