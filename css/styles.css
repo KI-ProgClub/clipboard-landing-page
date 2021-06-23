@@ -11,7 +11,7 @@ body {
 body div {
     font-family: 'Bai Jamjuree', sans-serif;
     display: flex;
-     align-items: center; 
+    align-items: center; 
     flex-direction: column;
 }
 h1 {
@@ -137,16 +137,16 @@ button:active {
 }
 footer {
     background: rgb(241, 241, 241);
-    padding: 10px; clear : both;
-    text-align: left;
+    padding: 5em; clear : both;
 }
-#linkingfooter {
+.linkingfooter {
     transition: color .3s;
     text-decoration: none;
     font-size: 1.2em;
     color: rgb(75, 75, 75);
+    margin-bottom: 1.3em;
 }
-#linkingfooter:hover {
+.linkingfooter:hover {
     transition: color .3s;
     color: #6BD1BA;
 }
@@ -157,5 +157,12 @@ footer {
 .nav {
     height: 52px;
     flex-direction: column;
-    margin-right: 5em;
+    margin-right: 6em;
 }
+#FAQs {
+    padding-right: 2.7em;
+}
+#PressKit {
+    padding-right: 2.3em;
+}
+
