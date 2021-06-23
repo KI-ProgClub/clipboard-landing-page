@@ -127,7 +127,7 @@ button:active {
 #logo {
     flex-direction: row;
     justify-content: center;
-    margin-bottom: 8em;
+    margin: 3em 0em 8em 0em;
 }
 #logo img {
     margin-right: 5em;
