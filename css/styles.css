@@ -8,10 +8,10 @@ body {
     margin: 0;
     line-height: 27px;
 }
-div {
+body div {
     font-family: 'Bai Jamjuree', sans-serif;
     display: flex;
-    /* align-items: center; --- должно быть но зато футер ок*/
+     align-items: center; 
     flex-direction: column;
 }
 h1 {
@@ -152,6 +152,7 @@ footer {
 }
 .linkall {
     flex-direction: row;
+    justify-content: center;
 }
 .nav {
     height: 52px;
