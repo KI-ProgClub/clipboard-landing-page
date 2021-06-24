@@ -34,7 +34,7 @@ p {
     margin-top: 0px;
 }
 .header {
-    margin-bottom: 5em;
+    margin-bottom: 10em;
 }
 #ios {
     transition: .3s;
@@ -90,6 +90,7 @@ button:active {
     text-align: center;
     justify-content: center;
     align-items: center;
+    margin-bottom: 5em;
 }
 .computer {
     position: relative;
@@ -102,6 +103,7 @@ button:active {
     flex-direction: row;
     overflow: hidden;
     text-align: left;
+    margin-bottom: 10em;
 }
 #featuresText {
     margin-bottom: 7em;
@@ -110,6 +112,14 @@ button:active {
 }
 .Clipboard {
     margin-top: 5em;
+    text-align: center;
+}
+.par {
+    width: 40em;
+    text-align: center;
+}
+#Workflow {
+    margin-bottom: 5em;
 }
 .devices {
     position: relative;
@@ -120,6 +130,7 @@ button:active {
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
+    margin-bottom: 7em;
 }
 #allFeutures img {
     margin: 2em 0em 1em 0em;
@@ -137,12 +148,13 @@ button:active {
 }
 footer {
     background: rgb(241, 241, 241);
-    padding: 2em; clear : both;
+    padding: 3.5em; clear : both;
+    width: 100%;
 }
 .linkingfooter {
     transition: color .3s;
     text-decoration: none;
-    font-size: 1.1em;
+    font-size: 1em;
     color: rgb(75, 75, 75);
     margin-bottom: 1em;
 }
